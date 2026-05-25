@@ -44,11 +44,18 @@ margin-top: 30px;
 border-radius: 10px;
 }
  
-.imagem-documentos {
-flex:  1;
+.documentos-necessarios img{
+    width: 100px;
 
 }
 
+.imagem-documentos {
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
 .dados-left{
 flex: 2;
 }
