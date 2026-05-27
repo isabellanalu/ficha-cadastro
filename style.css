@@ -22,7 +22,7 @@ width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-flex: 1;
+    flex: 1;
 }
 .cadastro-topo{
 flex: 4;
@@ -69,6 +69,7 @@ padding: 25px;
 background-color: #fff; 
 border-radius: 10px;
 margin-top: 30px;
+flex-direction: column;
 } 
 
 .informacao-funcionario {
@@ -81,8 +82,38 @@ width: 950px;
 .informacao-funcionario p{
     background-color: #ccc;
     line-height: 2;
-    padding: 2px 8px 2px 8px
+    padding: 2px 8px 2px 8px;
     font-size: 12px;
     border-radius: 4px;
 
+}
+
+.pequeno{
+flex: 1;
+display: flex;
+flex-direction: column;
+}
+
+.medio{
+flex: 2;
+display: flex;
+flex-direction: column;
+}
+
+.grande {
+flex: 3;
+display: flex;
+flex-direction: column;
+}
+
+.extra {
+ flex: 6;
+display: flex;
+flex-direction: column;
+}
+
+.linha{
+display: flex;
+width: 950px;
+gap: 20px;
 }
